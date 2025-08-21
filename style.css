@@ -1,0 +1,252 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.outhead {
+    position: fixed;
+    background-color: #007764;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 84px;
+    z-index: 1000;
+}
+.head {
+    margin: 0px auto;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: block;
+    margin-top: 20px;
+}
+.head2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+    margin-top: 28px;
+}
+.verticalline {
+     height: 20px;
+     border-left: 2px solid #ffffff;
+     margin-top: 2px;
+}
+.main-title img {
+    height: 403px;
+    display: inline-block;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+}
+.main-title {
+    width: 100%;
+}
+.text-title {
+    margin-top: 84px;
+    padding-top: 184px;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+}
+.main-text {
+    width: 100%;
+    position: relative;
+    top: 294px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    color:#010101;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    flex-direction: column;
+    gap: 40px;
+}
+.heading {
+    text-align: center;
+    font-size: 68px;
+    color: #007764;
+    padding-bottom: 15px
+}
+.case {
+    position: relative;
+}
+.main-title-two {
+    width: 100%; 
+}
+.main-title-two img {
+   position: absolute;
+   width: 100%;
+   height: 483px;
+   left: 0px;
+   margin-top: 370px;
+}
+.text-title-two {
+    display: flex;
+    position: absolute;
+    margin-top: 370px;
+    font-size: 48px;
+    max-width: 893px;
+    width: 100%;
+    text-align: center;
+    padding-left: 55px;
+    padding-top: 55px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding-top: 180px;
+    line-height: 100%;
+}
+.case_one {
+    position: relative;
+    margin-top: 930px;
+    background-color: rgb(255, 255, 255);
+}
+.main-text-two {
+    max-width: 1219px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-left: 55px;
+    padding-right: 55px;
+    transform: translate(-50%);
+    left: 50%;
+    color: #010101;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 1.3;
+}
+.heading_two {
+    color:#007764;
+    font-size: 64px;
+    text-align: center;
+}
+.case_photo {
+    display: flex;
+    flex-direction: row;
+    line-height: 100%;
+    align-items: center;
+    line-height: 1.3;
+    gap: 40px;
+}
+.case_photo img {
+    width: 115px;
+    height: 115px;
+}
+.case_text {
+    width: 930px;
+    height: 110px;
+}
+.case_two {
+    background-color: #eeeeee;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    height: 845px;
+    margin-top: 60px;
+}
+.case_two1 {
+    display: flex;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 55px;
+    padding-right: 55px;
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 1219px;
+    max-height: 845px;
+}
+.heading_three {
+    color: #007764;
+    position: absolute;
+    font-size: 64px;
+    margin-top: 80px;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.case_two_inside {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  width: 100%;
+}
+.card {
+  width: calc(33.33% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.card img {
+    padding-bottom: 25px;
+    width: 168px;
+    height: 168px;
+}
+.name {
+    color:#007764;
+    font-size: 24px;
+}
+.org {
+    font-size: 18px;
+    color: #010101;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    background-color: #333333;
+    margin-top: 900px;
+    height: 176px;
+}
+.footer_inside {
+    max-width: 1219px;
+    width: 100%;
+}
+.text-footer {
+    width: 540px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding-top: 55px;
+}
+a {
+    color:#ffffff;
+    text-decoration-line: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+#the_problem {
+    scroll-margin-top: 120px;
+}
+#PiedPiperCoin {
+    scroll-margin-top: 120px;
+}
+#the_team {
+    scroll-margin-top: 120px;
+}
+#ll {
+    scroll-margin-top: 500px;
+}
